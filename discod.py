@@ -270,7 +270,7 @@ POLITICS_PROFANITY_PATTERNS = [
 
 import discord
 
-TOKEN = "MTQ1MTg2NDMxMzIzMTgzNTI1MQ.G-fYov.JJ-RE4y9Efz0hjvNpt_PRbx6ui35vUF1zfF7xw"
+TOKEN = "MTQ1MTg2NDMxMzIzMTgzNTI1MQ.G8X6PX.e8AmxFIUSRX13Klp98tvWSYgHOtqYiAcYKW8M4"
 
 # 검열 제외할 채널 ID들 (음지 채널)
 WHITELIST_CHANNEL_IDS = {
@@ -336,3 +336,4 @@ async def on_message(message):
         await message.delete()
 
 client.run(TOKEN)
+
