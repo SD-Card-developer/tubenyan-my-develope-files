@@ -1,3 +1,6 @@
+# TUBENYAN. 2026 / 02 / 25. 00:16 all rights reserved.
+# you can use this Lib your program without credits!
+
 import os
 import json
 
@@ -40,3 +43,4 @@ def listremove_file(filename:str, data:str, encoding:str='utf-8'):
     a.replace(f'{data}', '')
     with open(filename, 'w', encoding=encoding) as f:
         f.write(a)
+
